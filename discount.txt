@@ -1,0 +1,6 @@
+start
+   input origPrice
+   discount = origPrice * 0.10
+   finalPrice = origPrice - discount
+   output finalPrice
+stop

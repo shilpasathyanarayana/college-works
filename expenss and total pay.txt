@@ -1,0 +1,17 @@
+// This program accepts a user's monthly pay
+// and rent, utilities, and grocery bills
+// and displays the amount available for discretionary spending
+// (which might be negative)
+// Modify the program to output the pay and the total bills
+// as well as the remaining discretionary amount
+
+start
+   input pay
+   input rent
+   input utilities
+   input groceries
+   totalbills = rent + utilities + groceries
+   discretionary = pay - totalbills
+   output totalbills
+   output discretionary
+stop
